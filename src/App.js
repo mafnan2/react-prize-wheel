@@ -47,7 +47,7 @@ function App() {
           onStopSpinning();
         }}
       />
-      <button onClick={handleSpinClick}>SPIN</button>
+      <button className="px-4 py-2 bg-blue-500 text-white mt-2 rounded-md" onClick={handleSpinClick}>SPIN</button>
     </div>
   );
 }
